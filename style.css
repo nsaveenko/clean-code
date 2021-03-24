@@ -23,9 +23,11 @@ img {
 }
 
 @media (max-width:768px) {
+
     .additional-info {
         text-align: center;
     }
+    
 }
 
 .main-content {
