@@ -5,28 +5,30 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.additional-info {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.additional-info 
+img {
     width: 100%;
 }
 
-.aaa .more-inf {
+.additional-info 
+.additional-info-link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .aaa {
+    .additional-info {
         text-align: center;
     }
 }
 
-.centered-main-page-element {
+.main-content {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -145,18 +147,18 @@ li>input[type="text"] {
 }
 
 li>button
-.delete:hover {
+.delete-btn:hover {
     color: #cf2323;
 }
 
-button.delete 
+button.delete-btn 
 img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete 
+button.delete-btn
 img:hover {
     transform: rotateZ(0);
 }
