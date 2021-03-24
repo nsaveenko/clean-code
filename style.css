@@ -27,7 +27,7 @@ img {
     .additional-info {
         text-align: center;
     }
-    
+
 }
 
 .main-content {
@@ -39,7 +39,7 @@ img {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -145,7 +145,7 @@ li>label {
 }
 
 li>input[type="text"] {
-    width: 226px
+    width: 226px;
 }
 
 .delete-btn:hover {
@@ -167,7 +167,8 @@ img:hover {
 /* Completed */
 #completed-tasks 
 label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */
@@ -180,7 +181,7 @@ input[type=text] {
 .edit-mode 
 input[type=text] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .edit-mode 
